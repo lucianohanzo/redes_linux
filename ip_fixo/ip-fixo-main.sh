@@ -1,7 +1,13 @@
 #!/bin/bash
 
+# Source Code
+source ./ip-dns.sh
+
+
+
 pasta_config="/etc/ip-fixo"
 arquivo_config="ip-fixo.cfg"
+
 
 # Cria uma pasta de configuração.
 if [ ! -d $pasta_config ]; then
